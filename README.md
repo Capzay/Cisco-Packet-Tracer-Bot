@@ -5,6 +5,8 @@ This was a simple bot I made to configure routers and computers as i was tired o
 **THIS ONLY WORKS IN A 1920x1080 RESOLUTION**
 
 ## Use case
+pip install -r requirements.txt
+
 Run the `main.py` file
 
 To setup a router type r
