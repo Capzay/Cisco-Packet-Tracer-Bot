@@ -2,6 +2,8 @@
 This was a simple bot I made to configure routers and computers as i was tired of doing it in class all the time
 
 ## Use case
+Run the `main.py` file
+
 To setup a router type r
 To setup a computer type c
 
