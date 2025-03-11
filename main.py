@@ -19,6 +19,7 @@ while True:
             count += 2
             
     elif choice.strip().lower() == "c":
+        have = int(input("How many do you currently have?"))
         runs = int(input("How many do you want?"))
         baseIP = int(input("What is the base ip? e.g. 192.168.x.0"))
         dfgw = input("Do you want a default gateway? y/n")
@@ -29,9 +30,13 @@ while True:
         else:
             dfgwBool = False
 
+        if have != 0:
+            count = have
+        else:
+            count = 0
+
         t.sleep(4)
         offset = 0
-        count = 0
         for i in range(1,runs+1):
             count += 1
             SetupComputer(offset,count,baseIP,dfgwBool,dfgw)
