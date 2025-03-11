@@ -25,7 +25,8 @@ while True:
         dfgw = input("Do you want a default gateway? y/n")
 
         if dfgw.strip().lower() == "y":
-            dfgw = f"192.168.{baseIP + 1}.1"
+            dfgwIP = int(input("What is the default gateway number 192.168.x.1 (the x)"))
+            dfgw = f"192.168.{dfgwIP}.1"
             dfgwBool = True
         else:
             dfgwBool = False
