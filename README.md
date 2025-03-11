@@ -1,6 +1,9 @@
 # Cisco Packet Tracer Bot
 This was a simple bot I made to configure routers and computers as i was tired of doing it in class all the time
 
+# ⚠ DISCLAIMER ⚠
+**THIS ONLY WORKS IN A 1920x1080 RESOLUTION**
+
 ## Use case
 Run the `main.py` file
 
