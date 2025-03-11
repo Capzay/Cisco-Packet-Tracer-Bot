@@ -19,9 +19,9 @@ while True:
             count += 2
             
     elif choice.strip().lower() == "c":
-        have = int(input("How many do you currently have?"))
         runs = int(input("How many do you want?"))
         baseIP = int(input("What is the base ip? e.g. 192.168.x.0"))
+        have = int(input("How many do you currently have with that base IP?"))
         dfgw = input("Do you want a default gateway? y/n")
 
         if dfgw.strip().lower() == "y":
