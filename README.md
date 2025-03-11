@@ -46,3 +46,5 @@ If you say you have 3 routers
 - Ethernet port 1: 192.168.7.1
 
 **Make sure, when creating a new device that you clear the space it optimises**
+
+### After entering the prerequisites, make sure Cisco Packet tracer is in 1920x1080 and nothing is overlaying the application
