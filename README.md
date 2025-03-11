@@ -16,7 +16,7 @@ Enter the number of devices you want
 
 The base ip is the 1 digit of the routers ip which would be 192.168.0.1 (would be 0)
 
-**To know the default gateway without checking, you first must know how the order that router was made**
+**To know the default gateway without checking, you first must know the order that router was made**
 
 e.g.
 
